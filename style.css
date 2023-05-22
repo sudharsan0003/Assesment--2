@@ -1,0 +1,69 @@
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(https://images.pexels.com/photos/12569818/pexels-photo-12569818.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 2rem;
+  background: #fff;
+}
+nav ul li {
+  display: inline-block;
+  margin-inline: 20px;
+  font-size: 18px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+
+}
+
+.container {
+  margin-top: 20rem;
+  gap: 3rem;
+}
+
+.container h1 {
+  font-size: 60px;
+  padding-bottom: 4rem;
+}
+
+.container {
+  font-size: 18px;
+}
